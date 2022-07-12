@@ -1,0 +1,10 @@
+import time
+h = int(input("enter no.of houres: "))
+m = int(input("enter no.of minutes: "))
+s = int(input("enter no.of seconds: "))
+
+count = s + m * 60 + h * 3600
+for i in range(0,count):
+    print(count -i , "seconds more")
+    time.sleep(1)
+print("stop")
